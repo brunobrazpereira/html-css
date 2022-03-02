@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work Sans' Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt (ponto), pc (paica)
+
+            Medidas Relativas
+            em (altura m), ex (altura x), rem (relativo ao route), VW (largura da view port), vh, %
+            Recomendado: px e em
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+            
+            /* lighter normal bold bolder*/
+        }
+        h1 {
+            /*shorthand
+            - font-style -> font weight -> font-size -> font-family
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+        h2 {
+            font: bold 3em 'work sans', sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes.</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam incidunt repellendus veritatis, voluptas itaque, inventore voluptatum reprehenderit totam sunt porro est error? Ab ipsum voluptatum quasi illum temporibus, laborum quidem!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus harum commodi fuga corporis eligendi et eaque autem, delectus nesciunt minus nulla dolores minima atque possimus accusantium, tempora consequuntur incidunt repellendus.</p>
+    <h2>Subtitulo do exercício.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsa error nihil neque asperiores magnam ducimus, placeat suscipit vero nemo eum enim voluptates architecto atque consectetur quia eveniet minus assumenda?</p>
+    
+</body>
+</html>
